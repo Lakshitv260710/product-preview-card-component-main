@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: rgba(243,234,227,255);
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      margin: 600px;
+      margin-top: 275px;
+      border-radius: 5%;
+    }
+
+    .text {
+      background-color: white;
+      padding: 60px;
+      border-radius: 0 10px 10px 0;
+    }
+
+    .button-container {
+      display: flex;
+      align-items: center;
+    }
+
+    button {
+  background-color: rgba(26,64,49,255);
+  color: white;
+  padding: 20px 60px; /* Adjust the values to make the button larger */
+  font-size: 16px; /* Adjust the font size as needed */
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+    .button-container img {
+      margin-right: 10px; 
+    }
+    img{
+      border-radius: 10px 0 0 10px;
+    }
+    #white{
+      color: white;
+    }
+    h6{
+      text-decoration: line-through;
+      color: gray;
+      font-family: 'Montserrat', sans-serif;
+
+    }
+    
+      h5 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat as the font family */
+  font-weight: 100;
+  color: gray;
+
+}
+p{
+  color: gray;
+}
+h2{
+  color: rgba(57,131,104,255);
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="./images/image-product-desktop.jpg" width="350px" alt="">
+    </div>
+    <div class="text">
+      <h5>P   E   R   F   U   M    E</h5>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>A floral, solar and voluptuous interpretation composed by Oliver Poige, Perfumer-creator for the house of CHANEL</p>
+      <div class="button-container">
+        <h2>$149.99       <span id="white">s</span></h2>
+        <h6> $169.99</h6>
+      </div>
+      <button>
+        <img src="./images/icon-cart.svg" alt=""> Add to cart
+      </button>
+    </div>
+  </div>
+</body>
+</html>
